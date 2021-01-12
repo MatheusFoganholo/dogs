@@ -22,6 +22,7 @@
     "prettier"
   ],
   "rules": {
+    "import/no-unresolved": "off",
     "react/jsx-fragments": "off",
     "prettier/prettier": "error",
     "react/jsx-filename-extension": [
