@@ -19,6 +19,7 @@
   },
   "plugins": ["react", "prettier"],
   "rules": {
+    "prefer-template": "off",
     "no-else-return": "off",
     "react/jsx-props-no-spreading": "off",
     "no-unused-vars": "warn",
