@@ -1,8 +1,14 @@
 /* Setting variables */
 :root {
   --black: #333;
+  --white: #fff;
+  --bit-dark-white: #eee;
   --type-first: Helvetica, Arial, sans-serif;
   --type-second: 'Spectral', Georgia;
+  --yellow: #fb1;
+  --light-yellow: #fea;
+  --brown: #764701;
+  --error: #f31;
 }
 
 /* Reseting configs and setting stardard */
