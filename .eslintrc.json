@@ -17,21 +17,19 @@
     "ecmaVersion": 11,
     "sourceType": "module"
   },
-  "plugins": [
-    "react",
-    "prettier"
-  ],
+  "plugins": ["react", "prettier"],
   "rules": {
+    "react/jsx-props-no-spreading": "off",
+    "no-unused-vars": "warn",
+    "react/prop-types": "off",
+    "no-console": "off",
     "import/no-unresolved": "off",
     "react/jsx-fragments": "off",
     "prettier/prettier": "error",
     "react/jsx-filename-extension": [
       1,
       {
-        "extensions": [
-          ".js",
-          ".jsx"
-        ]
+        "extensions": [".js", ".jsx"]
       }
     ]
   }
