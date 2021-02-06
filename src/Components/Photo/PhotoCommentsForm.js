@@ -2,6 +2,7 @@ import React from 'react';
 import { COMMENT_POST } from '../../api';
 import { ReactComponent as PostComment } from '../../Assets/enviar.svg';
 import useFetch from '../../Hooks/useFetch';
+import Error from '../Helper/Error';
 
 const PhotoCommentsForm = ({ id, setComments }) => {
   const [comment, setComment] = React.useState('');
@@ -29,6 +30,7 @@ const PhotoCommentsForm = ({ id, setComments }) => {
       <button type="submit">
         <PostComment />
       </button>
+      <Error error={error} />
     </form>
   );
 };
